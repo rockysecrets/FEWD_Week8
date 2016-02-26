@@ -34,19 +34,50 @@
 
 					<fieldset>
 						<legend>
-							Your Name
+							Register Now!
 						</legend>
+						<div class="FormInput">
+							<label for="Name">Name</label>
+							<input type="text" id="firstName" placeholder="John Doe" />
+						</div>
+						<div class="FormInput">
+							<label for="email">Email</label>
+							<input type="email" id="emailaddress" placeholder="hello@gmail.com" />
+						</div>
+						<div class="FormInput">
+							<label for="phone">Phone</label>
+							<input type="text" id="phonenumber" placeholder="412-234-234-756" />
+						</div>
+						<div class="FormInput">
+							<label for="country">Country</label>
+							<select>
+								<option>Singapore</option>
+								<option>Malaysia</option>
+								<option>Hong Kong</option>
+								<option>Taiwan</option>
+								<option>Thailand</option>
+							</select>
+						</div>
 
-						<input type="text" placeholder="First Name">
-						<input type="text" placeholder="Last Name">
+						<div class="FormInput">
+							<label for="password">Password</label>
+							<input type="password" id="password" placeholder="Password" />
+						</div>
+
+						<div class="FormRadio">
+							<label for="interest">Which service are you interested in?</label>
+							<input type="radio" id="relaxing">Relaxing</input>
+							<input type="radio" id="email">Email</input>
+							<input type="radio" id="phone">Phone</input>
+						</div>
+						<div id="FormTerms">
+							<input type="checkbox">I agree to the terms</input>
+						</div>
+						<div id="FormButton">
+							<input type="submit" value="Register Now!" class="blue button" />
+
+						</div>
 					</fieldset>
-
-					<input type="email" placeholder="Email Address">
-					<input type="password" placeholder="Password">
-					<input type="password" placeholder="Confirm Password">
-
-					<input type="submit" value="Register Now!">
-
 
 				</form>
 			</section>
